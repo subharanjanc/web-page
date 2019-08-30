@@ -1,0 +1,238 @@
+/* this is for maintaining uniform standard in look and feel */
+body
+{
+    
+    margin: 0 auto;
+    background-color: black;
+    color: black;
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+   
+}
+/* defining the div for the picture and personal data*/
+
+.flex-container {
+    display: flex;
+  }
+.prof-pic
+{
+    background-color: black;
+    border-style: solid solid solid solid;
+    border-width: 1px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    width: 350px;
+    height: 550px;
+  
+}
+
+/* this section is for contact related information*/
+.contact
+{
+    background-color: black;
+    border-style: solid solid solid solid;
+    border-width: 1px;
+    margin-top: 270px;
+    margin-left: 35px;
+    width: 280px;
+    height: 260px;
+  
+}
+
+/* this section is for keeping profile picture*/
+.profile
+{   
+    
+   position: absolute;
+   top: 50px;
+   left: 70px;
+   width: 250px;
+   height: 250px;
+
+}
+
+/* this section is for keeping high level professional info*/
+.prof-desc
+{
+    background-color:black;
+    border-style: solid solid solid solid;
+    border-width: 1px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    width: 890px;
+    height: 550px;
+  
+}
+
+/* this section is for keeping the menu uniform*/
+.menu-style
+{
+    background-color: rgb(3, 216, 3 );
+    border-style: solid solid solid solid;
+    border-width: 1px;
+    margin-top: 0px;
+  
+}
+
+/* this section is for showing how will it look after putting cursor*/
+.prof-pic:hover,.prof-desc:hover,.menu-style:hover
+{   
+    box-shadow: 15px 15px 15px rgb(3, 216, 3);
+    
+}
+
+
+/* this section is for putting the images in the correct position*/
+.tour1
+{   
+    
+   position: absolute;
+   top: 43px;
+   left: 100px;
+   width: 150px;
+   height: 150px;
+
+}
+
+.tour2
+{   
+    
+   position: absolute;
+    top: 143px;
+   left: 100px;
+   width: 150px;
+   height: 150px;
+  
+
+}
+
+.tour3
+{   
+    
+    position: absolute;
+   
+   top: 243px;
+   left: 100px;
+   width: 150px;
+   height: 150px;
+  
+
+}
+
+.tour4
+{   
+    
+    position: absolute;
+   
+   top: 343px;
+   left: 100px;
+   width: 150px;
+   height: 150px;
+ 
+
+}
+.tour8
+{ 
+    position: absolute;
+    top: 443px;
+   left: 100px;
+   width: 150px;
+   height: 150px;
+}
+
+.tour5
+{   
+    
+    position: absolute;
+   top: 300px;
+   left: 450px;
+   width: 220px;
+   height: 250px;
+   
+
+}
+.tour6
+{   
+    
+    position: absolute;
+   top: 300px;
+   left: 700px;
+   width: 220px;
+   height: 250px;
+ 
+
+}
+
+.tour7
+{   
+    
+    position: absolute;
+   top: 300px;
+   left: 950px;
+   width: 220px;
+   height: 250px;
+ 
+
+}
+
+
+img:hover
+{   
+    width: 300px;
+    height: 300px;
+    right: 50px;
+    box-shadow: 15px 15px 15px rgb(3, 216, 3);
+    z-index: 6;
+    
+}
+
+
+
+/*h2 to h4 includes various text sizes*/
+h3
+{
+color: rgb(3, 216, 3);
+font-size: 15px;
+}
+
+h2
+{
+color: rgb(3, 216, 3);
+font-size: 20px;
+}
+
+h4
+{
+color: rgb(3, 216, 3);
+font-size: 5px;
+}
+
+/*the unordered list is for menu*/
+nav ul
+{
+    list-style-type: square;
+    list-style-position: inside;
+    background-color: rgb(3, 216, 3 );
+} 
+nav ul li {
+    display: inline-block;
+    color: black;
+    font-style : italic;
+    font-size: 18px;
+    margin-right: 5%;
+    margin-left: 5%;
+
+ }
+
+ a:link,a:visited{
+     color: black;
+     font-style: italic;
+
+ }
+
+
+
